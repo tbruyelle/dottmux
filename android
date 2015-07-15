@@ -1,0 +1,5 @@
+neww -n dev/android
+splitw -h -p 50 -t 0 
+selectw -t last-window
+selectp -t 0
+send-keys -t 1 'pidcat.py com.comalia.gesicamobile.debug' Enter
