@@ -2,5 +2,5 @@ neww -n dev/android
 splitw -h -p 50 -t 0 
 selectw -t last-window
 selectp -t 0
-send-keys -t 0 'cd projects/gesica_mobile'
-send-keys -t 1 'pidcat.py com.comalia.gesicamobile.debug' Enter
+send-keys -t 0 'cd projects/pikpik'
+send-keys -t 1 'pidcat.py com.kamosoft.pikpik' Enter
